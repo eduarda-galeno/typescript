@@ -15,7 +15,7 @@ for(let i=0; i<10; i++){
     }
 }
 
-//para poder ordenar a saída dos números em ordem crescente igual mostra no exemplo do exercício, usei o spread para transformar o set em array
+//para poder ordenar a saída dos números em ordem crescente igual mostra no exemplo  de saída do exercício, usei o spread para transformar o set em array
 const numerosOrdenados = [...numeros].sort((a, b) => a - b);
 console.log("Números inseridos em ordem crescente:")
 console.table(numerosOrdenados);
